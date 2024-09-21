@@ -4,7 +4,6 @@
     "version": "1.0.3",
     "type": "module",
     "author": "Anton Filippovich <antonfilippovich.job@gmail.com>",
-    "license": "ISC",
     "main": "dist/input.js",
     "types": "dist/index.d.ts",
     "files": [
