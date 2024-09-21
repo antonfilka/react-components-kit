@@ -1,0 +1,30 @@
+{
+    "name": "@antonfilka/input",
+    "private": false,
+    "version": "1.0.1",
+    "type": "module",
+    "author": "Anton Filippovich <antonfilippovich.job@gmail.com>",
+    "license": "ISC",
+    "main": "dist/input.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antonfilka/react-components-kit.git"
+    },
+    "bugs": {
+        "url": "https://github.com/antonfilka/react-components-kit/issues"
+    },
+    "homepage": "https://github.com/antonfilka/react-components-kit#readme",
+    "peerDependencies": {
+        "@nextui-org/react": "^2.4.8"
+    }
+}

@@ -1,0 +1,40 @@
+name: Publish Packages
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - uses: actions/checkout@v4
+
+            - run: |
+                  git config user.name github-actions
+                  git config user.email github-actions@github.com
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Build packages
+              run: lerna run build --stream
+
+            - name: Run Lerna Version
+              env:
+                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                  npx lerna version -y -m "chore: publish" --no-commit-hooks --conventional-commits --create-release github
+
+            - name: Publish packages
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+              run: npx lerna publish from-package --yes
