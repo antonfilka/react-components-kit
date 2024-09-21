@@ -1,7 +1,7 @@
 {
     "name": "@antonfilka/input",
     "private": false,
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "module",
     "author": "Anton Filippovich <antonfilippovich.job@gmail.com>",
     "main": "dist/input.js",
