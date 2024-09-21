@@ -1,6 +1,6 @@
 # `@antonfilka/input`
 
-A customizable UI input component for building ui in your web applications
+A customizable UI input component for building ui in your web applications.
 
 ## Installation
 
