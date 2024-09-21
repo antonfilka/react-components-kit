@@ -1,11 +1,26 @@
-# `input`
+# `@antonfilka/input`
 
-> TODO: description
+A customizable UI input component for building forms in your web applications.
+
+## Installation
+
+```bash
+npm install @antonfilka/input
+```
 
 ## Usage
 
-```
-const input = require('input');
+```jsx
+import Input from '@antonfilka/input';
 
-// TODO: DEMONSTRATE API
+function App() {
+    return (
+        <div>
+            <h1>Enter your name:</h1>
+            <Input placeholder="Your Name" onChange={(e) => console.log(e.target.value)} />
+        </div>
+    );
+}
+
+export default App;
 ```
