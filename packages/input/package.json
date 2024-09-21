@@ -9,6 +9,10 @@
     "files": [
         "dist"
     ],
+    "keywords": [
+        "input",
+        "react"
+    ],
     "publishConfig": {
         "access": "public"
     },
