@@ -10,7 +10,7 @@ export interface IconProps {
     color?: string;
     /** Additional CSS classes */
     className?: string;
-    /** Inline styles for the icon */
+    /** Inline styles for  the icon */
     style?: React.CSSProperties;
     /** ARIA label for accessibility */
     'aria-label'?: string;
