@@ -12,7 +12,8 @@ jobs:
             contents: write
         steps:
             - uses: actions/checkout@v4
-
+              with:
+                  fetch-depth: 0
             - run: |
                   git config user.name github-actions
                   git config user.email github-actions@github.com
@@ -26,7 +27,7 @@ jobs:
               run: npm ci
 
             - name: Build packages
-              run: lerna run build --stream
+              run: lerna run build --stream --since --include-dependencies
 
             - name: Run Lerna Version
               env:

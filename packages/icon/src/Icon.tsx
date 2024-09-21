@@ -4,7 +4,7 @@ import { IconType } from 'react-icons';
 export interface IconProps {
     /** The icon component from react-icons */
     icon: IconType;
-    /** The size of the icon */
+    /** The size of the  icon */
     size?: number | string;
     /** The color of the icon */
     color?: string;
