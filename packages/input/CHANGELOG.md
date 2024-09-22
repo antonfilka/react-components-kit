@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/input@1.2.2...@antonfilka/input@1.3.0) (2024-09-22)
+
+
+### Features
+
+* **input:** minor ([0bb9509](https://github.com/antonfilka/react-components-kit/commit/0bb95099412ea0b522e653be55a541eff7c3366f))
+
+
+
+
+
 ## [1.2.2](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/input@1.2.1...@antonfilka/input@1.2.2) (2024-09-22)
 
 
