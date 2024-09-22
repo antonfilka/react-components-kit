@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/input@4.0.1...@antonfilka/input@4.1.0) (2024-09-22)
+
+
+### Features
+
+* refactor all ([8537fad](https://github.com/antonfilka/react-components-kit/commit/8537fadbd65ad1eb129983249de64700b7090d4b))
+
+
+
+
+
 ## [4.0.1](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/input@4.0.0...@antonfilka/input@4.0.1) (2024-09-22)
 
 

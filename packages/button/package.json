@@ -1,7 +1,7 @@
 {
     "name": "@antonfilka/button",
     "private": false,
-    "version": "1.1.2",
+    "version": "1.2.0",
     "type": "module",
     "author": "Anton Filippovich <antonfilippovich.job@gmail.com>",
     "main": "dist/button.js",
@@ -23,7 +23,7 @@
         "build": "tsc && vite build"
     },
     "dependencies": {
-        "@antonfilka/icon": "^2.2.2"
+        "@antonfilka/icon": "^2.3.0"
     },
     "peerDependencies": {
         "antd": "^5.20.6"
