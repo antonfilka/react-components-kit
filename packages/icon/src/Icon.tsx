@@ -6,7 +6,7 @@ export interface IconProps {
     icon: keyof typeof Icons;
     /** The size of the icon */
     size?: string;
-    /** The color of the icon */
+    /** The color of the  icon */
     color?: string;
     /** Additional CSS classes */
     className?: string;
