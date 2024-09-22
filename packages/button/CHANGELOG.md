@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/button@1.1.1...@antonfilka/button@1.1.2) (2024-09-22)
+
+
+### Bug Fixes
+
+* package.json ([abb2348](https://github.com/antonfilka/react-components-kit/commit/abb23486ebc199f605026c5c12a329c79c0e828e))
+
+
+
+
+
 ## [1.1.1](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/button@1.1.0...@antonfilka/button@1.1.1) (2024-09-22)
 
 

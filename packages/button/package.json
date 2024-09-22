@@ -1,7 +1,7 @@
 {
     "name": "@antonfilka/button",
     "private": false,
-    "version": "1.1.1",
+    "version": "1.1.2",
     "type": "module",
     "author": "Anton Filippovich <antonfilippovich.job@gmail.com>",
     "main": "dist/button.js",
@@ -31,6 +31,6 @@
         "antd": "^5.20.6"
     },
     "dependencies": {
-        "@antonfilka/icon": "^2.2.1"
+        "@antonfilka/icon": "^2.2.2"
     }
 }
