@@ -13,11 +13,14 @@
         "icon",
         "react"
     ],
+    "sideEffects": [
+        "**/*.css"
+    ],
     "publishConfig": {
         "access": "public"
     },
     "scripts": {
-        "build": "vite build"
+        "build": "tsc && vite build"
     },
     "repository": {
         "type": "git",

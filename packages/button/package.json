@@ -13,11 +13,20 @@
         "button",
         "react"
     ],
+    "sideEffects": [
+        "**/*.css"
+    ],
     "publishConfig": {
         "access": "public"
     },
     "scripts": {
-        "build": "vite build"
+        "build": "tsc && vite build"
+    },
+    "dependencies": {
+        "@antonfilka/icon": "^2.2.2"
+    },
+    "peerDependencies": {
+        "antd": "^5.20.6"
     },
     "repository": {
         "type": "git",
@@ -26,11 +35,5 @@
     "bugs": {
         "url": "https://github.com/antonfilka/react-components-kit/issues"
     },
-    "homepage": "https://github.com/antonfilka/react-components-kit#readme",
-    "peerDependencies": {
-        "antd": "^5.20.6"
-    },
-    "dependencies": {
-        "@antonfilka/icon": "^2.2.2"
-    }
+    "homepage": "https://github.com/antonfilka/react-components-kit#readme"
 }
