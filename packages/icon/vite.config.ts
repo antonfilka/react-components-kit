@@ -8,12 +8,12 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, 'src/index.ts'),
-            name: 'Input',
+            name: 'Icon',
             formats: ['es'],
             fileName: (format) => `index.${format}.js`,
         },
         rollupOptions: {
-            external: ['react', 'react-dom', '@nextui-org/react'],
+            external: ['react', 'react-dom', 'react/jsx-runtime', 'react-icons'],
         },
     },
 });
