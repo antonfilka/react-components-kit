@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/icon@0.5.1...@antonfilka/icon@0.6.0) (2024-09-22)
+
+
+* feat(icon)!: removed space ([4ad9771](https://github.com/antonfilka/react-components-kit/commit/4ad977115f4fdd8619a84b62520bd67d5c148d2e))
+
+
+### BREAKING CHANGES
+
+* removed space from interface
+
+
+
+
+
 ## [0.5.1](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/icon@0.5.0...@antonfilka/icon@0.5.1) (2024-09-22)
 
 **Note:** Version bump only for package @antonfilka/icon
