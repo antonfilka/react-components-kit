@@ -7,13 +7,13 @@ Update CHANGELOG:
 -   `feat(scope)!: + BREAKING CHANGES:`: bump MAJOR version. CHANGELOG with changes and BREAKING CHANGES section
 -   `feat(scope):`: bump MINOR version. CHANGELOG with changes
 -   `fix(scope):`: PATCH. CHANGELOG with Bug Fixes section from commits
+-   `perf(scope):`: PATCH. CHANGELOG with Performance Improvements section
 
 Don't Update CHANGELOG:
 
--   `docs:`: PATCH. Nothing in CHANGELOG
--   `style:`: PATCH. Nothing in CHANGELOG
--   `refactor:`: PATCH. Nothing in CHANGELOG
--   `test:`: PATCH. Nothing in CHANGELOG
--   `chore:`: PATCH. Nothing in CHANGELOG
--   `perf:`: PATCH. CHANGELOG with Performance Improvements section
--   `other:`: PATCH. Nothing in CHANGELOG
+-   `docs:`: PATCH
+-   `style:`: PATCH
+-   `refactor:`: PATCH
+-   `test:`: PATCH
+-   `chore:`: PATCH
+-   `other:`: PATCH

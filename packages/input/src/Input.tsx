@@ -1,11 +1,9 @@
 import React from 'react';
-import { Input as NextInput, InputProps as NextInputProps } from '@nextui-org/react';
+import { Input as AntInput, InputProps as AntInputProps } from 'antd';
 
-export interface InputProps extends NextInputProps {
+export interface InputProps extends AntInputProps {
     /** The current value of the input */
     value?: string;
-    /** The default value of the input (uncontrolled component) */
-    defaultValue?: string;
     /** Placeholder text displayed when the input is empty */
     placeholder?: string;
     /** The type of input (e.g., 'text', 'password', 'email') */
@@ -14,8 +12,6 @@ export interface InputProps extends NextInputProps {
     label?: string;
     /** Helper text displayed below the input */
     helperText?: string;
-    /** The status of the input for validation styling */
-    status?: 'default' | 'error' | 'success' | 'warning';
     /** Whether the input is disabled */
     disabled?: boolean;
     /** Whether the input is read-only */
@@ -30,6 +26,10 @@ export interface InputProps extends NextInputProps {
     minLength?: number;
 }
 
-export const Input: React.FC<InputProps> = ({ placeholder = 'Default placeholder', ...props }) => {
-    return <NextInput placeholder={placeholder} {...props} />;
+export const Input: React.FC<InputProps> = ({
+    placeholder = 'Default placeholder',
+    label = 'Input label',
+    ...props
+}) => {
+    return <AntInput placeholder={placeholder} {...props} />;
 };

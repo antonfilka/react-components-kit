@@ -28,6 +28,6 @@
     },
     "homepage": "https://github.com/antonfilka/react-components-kit#readme",
     "peerDependencies": {
-        "@nextui-org/react": "^2.4.8"
+        "antd": "^5.20.6"
     }
 }

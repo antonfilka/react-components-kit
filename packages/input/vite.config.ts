@@ -10,10 +10,9 @@ export default defineConfig({
             entry: resolve(__dirname, 'src/index.ts'),
             name: 'Input',
             formats: ['es'],
-            fileName: (format) => `index.${format}.js`,
         },
         rollupOptions: {
-            external: ['react', 'react-dom', '@nextui-org/react'],
+            external: ['react', 'react-dom', 'react/jsx-runtime', 'antd'],
         },
     },
 });

@@ -1,4 +1,3 @@
-import { StorybookConfig } from '@storybook/react-vite';
 import { join, dirname } from 'path';
 
 /**
@@ -9,7 +8,7 @@ function getAbsolutePath(value) {
     return dirname(require.resolve(join(value, 'package.json')));
 }
 
-const config: StorybookConfig = {
+const config = {
     stories: ['../packages/**/*.stories.@(ts|tsx|js|jsx)'],
     addons: [
         '@storybook/addon-essentials',
@@ -21,7 +20,7 @@ const config: StorybookConfig = {
         options: {},
     },
     docs: {
-        autodocs: true,
+        defaultName: 'Documentation',
     },
     core: {
         builder: '@storybook/builder-vite',
