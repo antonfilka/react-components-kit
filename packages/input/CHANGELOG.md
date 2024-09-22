@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/input@1.2.1...@antonfilka/input@1.2.2) (2024-09-22)
+
+
+### Bug Fixes
+
+* **nput:** patch ([ac36b7e](https://github.com/antonfilka/react-components-kit/commit/ac36b7e66609e641609765f00d005633bf705645))
+
+
+
+
+
 ## 1.2.1 (2024-09-21)
 
 
