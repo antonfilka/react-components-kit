@@ -18,7 +18,7 @@ export interface InputProps extends AntInputProps {
     readOnly?: boolean;
     /** Whether the input is required */
     required?: boolean;
-    /** Name attribute of the input element */
+    /** Name attribute of the input  element */
     name?: string;
     /** The maximum length of the input value */
     maxLength?: number;
