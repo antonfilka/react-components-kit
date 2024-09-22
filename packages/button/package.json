@@ -4,7 +4,7 @@
     "version": "1.1.1",
     "type": "module",
     "author": "Anton Filippovich <antonfilippovich.job@gmail.com>",
-    "main": "dist/input.js",
+    "main": "dist/button.js",
     "types": "dist/index.d.ts",
     "files": [
         "dist"
