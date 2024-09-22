@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.1](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/icon@2.2.0...@antonfilka/icon@2.2.1) (2024-09-22)
+
+
+### Bug Fixes
+
+* update build configs ([942cd62](https://github.com/antonfilka/react-components-kit/commit/942cd6251641f85be31d579a49da61a29e31bd51))
+
+
+
+
+
 # [2.2.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/icon@2.1.1...@antonfilka/icon@2.2.0) (2024-09-22)
 
 
