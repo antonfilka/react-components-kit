@@ -1,7 +1,7 @@
 {
     "name": "@antonfilka/icon",
     "private": false,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "author": "Anton Filippovich <antonfilippovich.job@gmail.com>",
     "main": "dist/input.js",
