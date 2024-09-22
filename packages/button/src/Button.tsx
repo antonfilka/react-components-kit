@@ -7,7 +7,7 @@ export interface ButtonProps extends AntButtonProps {}
 export const Button: React.FC<ButtonProps> = ({ ...props }) => {
     return (
         <AntButton {...props}>
-            this is button
+            This is button
             <Icon icon="FaAngular" />
         </AntButton>
     );
