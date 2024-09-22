@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/icon@0.4.0...@antonfilka/icon@0.5.0) (2024-09-22)
+
+
+* feat(icon)!: pass string as type ([f1580fd](https://github.com/antonfilka/react-components-kit/commit/f1580fdce27ea31a5cbae01f42eac3d18b8719da))
+* feat(icon)!: pass string as type ([1367420](https://github.com/antonfilka/react-components-kit/commit/1367420adb36cd821169cf12403e68b5ec069a67))
+
+
+### BREAKING CHANGES
+
+* pass string instead of component as icon value
+* pass string instead of component as icon value
+
+
+
+
+
 # [0.4.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/icon@0.3.2...@antonfilka/icon@0.4.0) (2024-09-22)
 
 
