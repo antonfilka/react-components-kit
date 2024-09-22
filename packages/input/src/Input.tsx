@@ -10,7 +10,7 @@ export interface InputProps extends NextInputProps {
     placeholder?: string;
     /** The type of input (e.g., 'text', 'password', 'email') */
     type?: string;
-    /** The label displayed above the input */
+    /** The label displayed above the  input */
     label?: string;
     /** Helper text displayed below the input */
     helperText?: string;
