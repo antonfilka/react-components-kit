@@ -2,7 +2,7 @@ import React from 'react';
 import * as Icons from 'react-icons/fa';
 
 export interface IconProps {
-    /** The name of the icon from  react-icons */
+    /** The name of the icon from react-icons */
     icon: keyof typeof Icons;
     /** The size of the icon */
     size?: string;
