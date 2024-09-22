@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/input@2.0.0...@antonfilka/input@2.0.1) (2024-09-22)
+
+**Note:** Version bump only for package @antonfilka/input
+
+
+
+
+
 # [2.0.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/input@1.3.0...@antonfilka/input@2.0.0) (2024-09-22)
 
 
