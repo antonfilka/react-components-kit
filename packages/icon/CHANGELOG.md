@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/icon@2.1.1...@antonfilka/icon@2.2.0) (2024-09-22)
+
+
+### Features
+
+* add button component ([673f2d5](https://github.com/antonfilka/react-components-kit/commit/673f2d54d0afb0e73163d7da9ce8a3cd53bdddf9))
+
+
+
+
+
 ## [2.1.1](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/icon@2.1.0...@antonfilka/icon@2.1.1) (2024-09-22)
 
 
