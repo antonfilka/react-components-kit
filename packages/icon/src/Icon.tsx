@@ -1,11 +1,11 @@
 import React from 'react';
-import { IconType } from 'react-icons';
+import * as Icons from 'react-icons/fa';
 
 export interface IconProps {
-    /** The icon component from react-icons */
-    icon: IconType;
+    /** The name of the icon from react-icons */
+    icon: keyof typeof Icons;
     /** The size of the  icon */
-    size?: number | string;
+    size?: number;
     /** The color of the icon */
     color?: string;
     /** Additional CSS classes */
@@ -15,12 +15,17 @@ export interface IconProps {
     /** ARIA label for accessibility */
     'aria-label'?: string;
 }
-
 export const Icon: React.FC<IconProps> = ({
-    icon: IconComponent,
+    icon,
     size = '1em',
     color = 'currentColor',
     ...props
 }) => {
+    const IconComponent = Icons[icon];
+
+    if (!IconComponent) {
+        return null;
+    }
+
     return <IconComponent size={size} color={color} {...props} />;
 };

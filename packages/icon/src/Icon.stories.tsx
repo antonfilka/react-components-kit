@@ -1,12 +1,5 @@
 import type { Meta } from '@storybook/react';
 import { Icon } from './Icon';
-import {
-    AiFillAlert,
-    AiFillAmazonCircle,
-    AiFillAndroid,
-    AiFillApi,
-    AiFillApple,
-} from 'react-icons/ai'; // Example icons from react-icons
 
 const meta = {
     title: 'Components/Icon',
@@ -18,25 +11,20 @@ export default meta;
 export const Basic = () => {
     return (
         <div style={{ display: 'grid', gap: '5px' }}>
-            <p>Basic Icon</p>
-            <Icon icon={AiFillAlert} size="2em" color="goldenrod" />
+            <p>Heart Icon (Favorite)</p>
+            <Icon icon="FaRegHeart" size="3em" color="red" />
 
-            <p>Icon with custom size</p>
-            <Icon icon={AiFillAmazonCircle} size="3em" color="brown" />
+            <p>Star Icon (Featured)</p>
+            <Icon icon="FaStar" size="3em" color="gold" />
 
-            <p>Icon with custom color</p>
-            <Icon icon={AiFillAndroid} size="2em" color="blue" />
+            <p>Tree Icon (Nature)</p>
+            <Icon icon="FaTree" size="3em" color="green" />
 
-            <p>Icon with custom styles</p>
-            <Icon
-                icon={AiFillApi}
-                size="2em"
-                style={{ border: '1px solid black', borderRadius: '50%' }}
-                aria-label="Coffee icon with border"
-            />
+            <p>Camera Icon (Photography)</p>
+            <Icon icon="FaCameraRetro" size="3em" color="black" />
 
-            <p>Icon with ARIA label for accessibility</p>
-            <Icon icon={AiFillApple} size="2em" color="green" aria-label="Beer icon" />
+            <p>Plane Icon (Travel)</p>
+            <Icon icon="FaPlane" size="3em" color="dodgerblue" />
         </div>
     );
 };
