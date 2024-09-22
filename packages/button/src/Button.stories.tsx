@@ -10,5 +10,9 @@ const meta = {
 export default meta;
 
 export const Basic = () => {
-    return <div style={{ display: 'grid', gap: '5px' }}></div>;
+    return (
+        <div style={{ display: 'grid', gap: '5px' }}>
+            <Button />
+        </div>
+    );
 };

@@ -1,5 +1,5 @@
 {
-    "name": "root",
+    "name": "antonfilka",
     "private": false,
     "workspaces": [
         "packages/*"
@@ -33,6 +33,7 @@
     },
     "scripts": {
         "storybook": "storybook dev -p 6006",
+        "build": "lerna run build --stream",
         "build-storybook": "storybook build",
         "lint:fix": "eslint --fix . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
     },
