@@ -5,6 +5,13 @@ Lerna will use commits to detect how to bump a version and how to generate a `CH
 Update CHANGELOG:
 
 -   `feat(scope)!: + BREAKING CHANGES:`: bump MAJOR version. CHANGELOG with changes and BREAKING CHANGES section
+    Example:
+
+```
+feat(input)!: some major update
+BREAKING CHANGE: some major breaking change
+```
+
 -   `feat(scope):`: bump MINOR version. CHANGELOG with changes
 -   `fix(scope):`: PATCH. CHANGELOG with Bug Fixes section from commits
 -   `perf(scope):`: PATCH. CHANGELOG with Performance Improvements section

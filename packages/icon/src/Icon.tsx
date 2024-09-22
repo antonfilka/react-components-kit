@@ -4,7 +4,7 @@ import * as Icons from 'react-icons/fa';
 export interface IconProps {
     /** The name of the icon from  react-icons */
     icon: keyof typeof Icons;
-    /** The size of the  icon */
+    /** The size of the icon */
     size?: string;
     /** The color of the icon */
     color?: string;
