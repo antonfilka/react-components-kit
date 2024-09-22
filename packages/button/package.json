@@ -1,0 +1,36 @@
+{
+    "name": "@antonfilka/button",
+    "private": false,
+    "version": "1.0.0",
+    "type": "module",
+    "author": "Anton Filippovich <antonfilippovich.job@gmail.com>",
+    "main": "dist/input.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "button",
+        "react"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antonfilka/react-components-kit.git"
+    },
+    "bugs": {
+        "url": "https://github.com/antonfilka/react-components-kit/issues"
+    },
+    "homepage": "https://github.com/antonfilka/react-components-kit#readme",
+    "peerDependencies": {
+        "antd": "^5.20.6"
+    },
+    "dependencies": {
+        "@antonfilka/icon": "^2.1.1"
+    }
+}

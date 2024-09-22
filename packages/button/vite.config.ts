@@ -8,11 +8,11 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, 'src/index.ts'),
-            name: 'Icon',
+            name: 'Button',
             formats: ['es'],
         },
         rollupOptions: {
-            external: ['react', 'react-dom', 'react/jsx-runtime', 'react-icons'],
+            external: ['react', 'react-dom', 'react/jsx-runtime', 'antd'],
         },
     },
 });
