@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/button@2.0.0...@antonfilka/button@3.0.0) (2024-09-26)
+
+
+* feat(button)!: button major update ([0422262](https://github.com/antonfilka/react-components-kit/commit/042226252f45fad44d243254ec95d6bc65b6386d))
+
+
+### BREAKING CHANGES
+
+* some major breaking change
+
+
+
+
+
 # [2.0.0](https://github.com/antonfilka/react-components-kit/compare/@antonfilka/button@1.3.0...@antonfilka/button@2.0.0) (2024-09-22)
 
 
